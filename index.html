@@ -21,6 +21,13 @@
     "light": $light-text-emphasis,
     "dark": $dark-text-emphasis,
   ); */
+  @media (min-width: 576px) {
+
+    .PORTFOLIO,
+    services {
+      height: 100vh;
+    }
+  }
 </style>
 
 <body>
@@ -66,7 +73,7 @@
     </div>
 
   </header>
-  <section id="SERVICES" class="services vh-100 container my-5 text-center d-flex flex-column justify-content-around">
+  <section id="SERVICES" class="services  container my-5 text-center d-flex flex-column justify-content-around">
     <div>
       <h2 class="h2 ">SERVICES</h2>
       <p>Lorem ipsum dolor sit amet consectetur.</p>
@@ -99,7 +106,7 @@
   </section>
 
   <section id="PORTFOLIO"
-    class=" container vh-100 container my-5 text-center d-flex flex-column justify-content-around">
+    class="PORTFOLIO container container my-5 text-center d-flex flex-column justify-content-around">
     <div>
       <div>
         <h2 class="h2 ">PORTFOLIO</h2>
